@@ -5,11 +5,11 @@ using namespace std;
 #endif
 double functionofx(double x)
 {
-    return (pow(x, 3) + 3*x + 1);
+    return (pow(x, 2) - 7*x + 2);
 }
 double derivative_function(double x)
 {
-    return (3*(pow(x, 2)) + 3);
+    return (2*x - 7);
 }
 double NewtonRaphsonMethod(double x0, double tolerence)
 {
